@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: sachinparihar/argocd-app:1.2
+        image: sachinparihar/stockmanager
         ports:
         - containerPort: 8080
