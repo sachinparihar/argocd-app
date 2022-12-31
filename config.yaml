@@ -1,0 +1,10 @@
+baseURL: ""
+languageCode: en-us
+title: Sachin PARIHAR
+theme: hugo-theme-learn
+
+menu:
+  main:
+   - identifier: categories
+     name: categories
+     weight: 20
