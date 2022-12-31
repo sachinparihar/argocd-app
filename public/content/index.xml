@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contents on Sachin PARIHAR</title>
+    <link>/content/</link>
+    <description>Recent content in Contents on Sachin PARIHAR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/content/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First</title>
+      <link>/content/first/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/content/first/</guid>
+      <description>This Blog is writing about the pratice devops field stuff.</description>
+    </item>
+    
+    <item>
+      <title>Second</title>
+      <link>/content/second/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/content/second/</guid>
+      <description>The Open Bloggings </description>
+    </item>
+    
+  </channel>
+</rss>
