@@ -1,23 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  labels:
-    app.kubernetes.io/instance: argocd-hugo
-  name: hugo-website
-  namespace: default
+  name: myapp
 spec:
-  replicas: 1
   selector:
     matchLabels:
-      app: hugo-website
-      namespace: default
+      app: myapp
+  replicas: 2
   template:
     metadata:
       labels:
-        app: hugo-website
+        app: myapp
     spec:
       containers:
-        - image: sachinparihar/hugo-website:latest
-          name: hugo-website
-          ports:
-            - containerPort: 80
+      - name: myapp
+        image: sachinparihar/hugo-website:latest
+        ports:
+        - containerPort: 8080
+
