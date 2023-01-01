@@ -17,7 +17,7 @@ spec:
         app: hugo-website
     spec:
       containers:
-        - image: hugo-website:latest
+        - image: sachinparihar/hugo-website:latest
           name: hugo-website
           ports:
             - containerPort: 80
