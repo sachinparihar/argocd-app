@@ -1,6 +1,2 @@
-+++
-archetype = "home"
-title = "The Open Bloggings"
-+++
-
+# The Open Blogging
 
