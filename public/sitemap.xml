@@ -4,14 +4,13 @@
   <url>
     <loc>/content/first/</loc>
   </url><url>
-    <loc>/content/second/</loc>
+    <loc>/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>/categories/</loc>
   </url><url>
     <loc>/content/</loc>
   </url><url>
     <loc>/tags/</loc>
-  </url><url>
-    <loc>/</loc>
   </url>
 </urlset>

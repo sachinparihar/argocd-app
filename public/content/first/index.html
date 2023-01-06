@@ -9,23 +9,23 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>First :: Sachin PARIHAR</title>
+    <title>What is Serverless :: Sachin PARIHAR</title>
 
     
-    <link href="/css/nucleus.css?1672467929" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1672467929" rel="stylesheet">
-    <link href="/css/hybrid.css?1672467929" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1672467929" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1672467929" rel="stylesheet">
-    <link href="/css/auto-complete.css?1672467929" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1672467929" rel="stylesheet">
-    <link href="/css/theme.css?1672467929" rel="stylesheet">
-    <link href="/css/tabs.css?1672467929" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1672467929" rel="stylesheet">
+    <link href="/css/nucleus.css?1673020120" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1673020120" rel="stylesheet">
+    <link href="/css/hybrid.css?1673020120" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1673020120" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1673020120" rel="stylesheet">
+    <link href="/css/auto-complete.css?1673020120" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1673020120" rel="stylesheet">
+    <link href="/css/theme.css?1673020120" rel="stylesheet">
+    <link href="/css/tabs.css?1673020120" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1673020120" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1672467929"></script>
+    <script src="/js/jquery-3.3.1.min.js?1673020120"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -135,14 +135,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1672467929"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1672467929"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1673020120"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1673020120"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1672467929"></script>
+<script type="text/javascript" src="/js/search.js?1673020120"></script>
 
     
   </div>
@@ -196,30 +196,9 @@
  
   
     
-      <li data-nav-id="/content/first/" title="First" class="dd-item active">
+      <li data-nav-id="/content/first/" title="What is Serverless" class="dd-item active">
         <a href="/content/first/">
-        First
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/content/second/" title="Second" class="dd-item ">
-        <a href="/content/second/">
-        Second
+        What is Serverless
         
         </a>
     </li>
@@ -285,7 +264,7 @@
             
           
           
-            <a href='/'>The Open Bloggings</a> > <a href='/content/'>Contents</a> > First
+            <a href='/'></a> > <a href='/content/'>Contents</a> > What is Serverless
           
         
           
@@ -298,7 +277,15 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#how-does-it-work">How does it work?</a></li>
+    <li><a href="#benefits-of-serverless-architecture">Benefits of serverless architecture</a></li>
+    <li><a href="#drawbacks">Drawbacks</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -314,14 +301,51 @@
           
             <h1>
               
-              First
+              What is Serverless
             </h1>
           
 
         
 
 
-<p>This Blog is writing about the pratice devops field stuff.</p>
+<h2 id="overview">Overview</h2>
+<p>Serverless Computing is a way of building and running applications and services without having infrastructure. This means that you don&rsquo;t have to worry about maintaining servers to run your code, as an infrastructure managed by a cloud provider(aws, azure, gcp cloud).</p>
+<p>Serverless doesn&rsquo;t mean that they don&rsquo;t have servers. There are still servers but they are abstracted away from app development. It means that you don&rsquo;t need to maintain, provision, or scale servers, you only need to focus development side. This can save time and money, and allow developers to focus on writing code.</p>
+<p>Serverless computing uses event-triggered stateless containers to host your services. They can scale out and in to meet demand as needed.</p>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p>In a serverless architecture, you write and deploy your code as functions. These functions are executed in response to events, such as an HTTP request, a database write, or a message published to a message queue. When an event occurs, the cloud provider runs the functions and returns the result to the client.</p>
+<h2 id="benefits-of-serverless-architecture">Benefits of serverless architecture</h2>
+<ul>
+<li>
+<p><strong>Cost-effective</strong>: You only pay for the resources that your functions use when they are executing.</p>
+</li>
+<li>
+<p><strong>Scalability</strong>: Your functions can automatically scale up or down based on demand, so you don&rsquo;t have to worry about capacity planning.</p>
+</li>
+<li>
+<p><strong>Flexibility:</strong> You can write code in any language as suits you best.</p>
+</li>
+<li>
+<p><strong>Speed</strong>: You can deploy and update your functions quickly.</p>
+</li>
+<li>
+<p><strong>Simplicity</strong>: You don&rsquo;t have to worry about infrastructure, so you can focus on writing code and building your applications.</p>
+</li>
+</ul>
+<h2 id="drawbacks">Drawbacks</h2>
+<ul>
+<li>
+<p><strong>Complexity</strong>: Serverless architectures can be more complex to design and build, especially if you are using multiple functions and triggers. This can make it more difficult to debug and troubleshoot issues.</p>
+</li>
+<li>
+<p><strong>Higher cost</strong>: While serverless architectures can be cost-effective at lower scales, they can become more expensive as the scale increases.</p>
+</li>
+<li>
+<p><strong>Cold starts</strong>: When a function is triggered for the first time, or after it has been idle for a while, there can be a delay before the function starts executing.</p>
+</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>Overall, Serverless computing is a powerful technology to build and deploy applications. If you are looking to build and deploy an application quickly, serverless computing would be worth considering.</p>
 
 
 <footer class="footline">
@@ -385,25 +409,6 @@
             
         
                     
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
             
         
                     
@@ -419,8 +424,6 @@
 			<a class="nav nav-prev" href="/content/" title="Contents"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/content/second/" title="Second" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
-		
 	
     </div>
 
@@ -429,19 +432,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1672467929"></script>
-    <script src="/js/perfect-scrollbar.min.js?1672467929"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1672467929"></script>
-    <script src="/js/jquery.sticky.js?1672467929"></script>
-    <script src="/js/featherlight.min.js?1672467929"></script>
-    <script src="/js/highlight.pack.js?1672467929"></script>
+    <script src="/js/clipboard.min.js?1673020120"></script>
+    <script src="/js/perfect-scrollbar.min.js?1673020120"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1673020120"></script>
+    <script src="/js/jquery.sticky.js?1673020120"></script>
+    <script src="/js/featherlight.min.js?1673020120"></script>
+    <script src="/js/highlight.pack.js?1673020120"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1672467929"></script>
-    <script src="/js/learn.js?1672467929"></script>
-    <script src="/js/hugo-learn.js?1672467929"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1673020120"></script>
+    <script src="/js/learn.js?1673020120"></script>
+    <script src="/js/hugo-learn.js?1673020120"></script>
     
         
-            <script src="/mermaid/mermaid.js?1672467929"></script>
+            <script src="/mermaid/mermaid.js?1673020120"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
@@ -451,4 +454,3 @@
 
   </body>
 </html>
-
