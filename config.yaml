@@ -1,10 +1,22 @@
 baseURL: ""
 languageCode: en-us
-title: Sachin PARIHAR
+title: Home
 theme: hugo-theme-learn
 
+params:
+  homepageLayout: "home"
+  
 menu:
   main:
    - identifier: categories
      name: categories
+     url: /categories/
+     weight: 10
+   - identifier: tags
+     name: tags
+     url: /tags/
      weight: 20
+   - identifier: archives
+     name: Archives
+     url: /archives/
+     weight: 30
