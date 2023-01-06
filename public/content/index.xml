@@ -7,21 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/content/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First</title>
+      <title>What is Serverless</title>
       <link>/content/first/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/content/first/</guid>
-      <description>This Blog is writing about the pratice devops field stuff.</description>
-    </item>
-    
-    <item>
-      <title>Second</title>
-      <link>/content/second/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/content/second/</guid>
-      <description>The Open Bloggings </description>
+      <description>Overview Serverless Computing is a way of building and running applications and services without having infrastructure. This means that you don&amp;rsquo;t have to worry about maintaining servers to run your code, as an infrastructure managed by a cloud provider(aws, azure, gcp cloud).
+Serverless doesn&amp;rsquo;t mean that they don&amp;rsquo;t have servers. There are still servers but they are abstracted away from app development. It means that you don&amp;rsquo;t need to maintain, provision, or scale servers, you only need to focus development side.</description>
     </item>
     
   </channel>
